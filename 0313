@@ -1,0 +1,6 @@
+1. 注意""和''的区别，无法识别到$1则不会变成紫色
+2. 提交代码的方法：
+git status
+git add --all
+git commit -m "balabala"
+git push
