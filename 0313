@@ -4,3 +4,5 @@ git status
 git add --all
 git commit -m "balabala"
 git push
+3. 提取多行内容的时候的代码
+sed -n '8p;32p;128p;512p;1024p' $1>$2
