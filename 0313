@@ -8,4 +8,7 @@ git push
 sed -n '8p;32p;128p;512p;1024p' $1>$2
 4. cp复制的时候前面是源后面是目的操作数
 cp A B意思是把A复制给B
+5. gcc -c只编译不链接
+6. $(MAKE) --directory="code"可以用于在子文件夹里调用Make指令 $(MAKE) clean同理
+
 
